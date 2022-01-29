@@ -16,7 +16,7 @@ export const DataContext = createContext({});
 export const DataProvider: DataProvider = ({ children }) => {
   const storedValue = localStorage.getItem("input");
 
-  const [inputValue, setInputValue] = useState<string>("dog" || storedValue);
+  const [inputValue, setInputValue] = useState<string>(storedValue || "dog");
   const [data, setData] = useState<objectArrays>({});
   const [loading, setLoading] = useState<boolean>(false);
   const [currPage, setCurrPage] = useState<number>(1);
