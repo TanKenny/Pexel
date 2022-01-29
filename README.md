@@ -1,12 +1,14 @@
 # Pexel
 
-Simple image searching app using
+Simple image searching app using:
 - [Pexel API](https://www.pexels.com/api/) 
 - [React](https://reactjs.org/)
 - [Typescript](https://www.typescriptlang.org/)
 - [Styled Components](https://styled-components.com/)
 
 ### Installation
+
+To run this locally on your machine please have the following:
 
 - `Node: ^14.0`
 - `Pexel API key: https://www.pexels.com/api/`
