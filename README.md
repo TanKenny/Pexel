@@ -13,6 +13,9 @@ To run this locally on your machine please have the following:
 - `Node: ^14.0`
 - `Pexel API key: https://www.pexels.com/api/`
 
+Create an `.env` on the root directory
+```REACT_APP_API_URL=PEXEL_API_KEY_HERE```
+
 ### Example
 - I can see an initial set of curated photos on the home screen
 - I can paginate the list of curated photos
